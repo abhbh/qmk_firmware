@@ -1,6 +1,4 @@
-# MCU name
 MCU = RP2040
-# Bootloader selection
 BOOTLOADER = rp2040
 
 SPLIT_KEYBOARD = yes
@@ -30,4 +28,3 @@ WS2812_DRIVER = vendor
 OLED_ENABLE = yes
 OLED_DRIVER = ssd1306
 WPM_ENABLE = no
-
