@@ -1,5 +1,10 @@
 #pragma once
 
+// 2 Encoders (1 each on left and right)
+#define ENCODER_A_PINS { GP28 }
+#define ENCODER_B_PINS { GP29 }
+#define ENCODER_A_PINS_RIGHT { GP29 }
+#define ENCODER_B_PINS_RIGHT { GP28 }
 #define ENCODER_RESOLUTION 4
 
 #define SPLIT_HAND_PIN GP4
