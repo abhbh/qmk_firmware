@@ -1,6 +1,6 @@
 {
-    "manufacturer": "Abhinav",
-    "keyboard_name": "abhbh/sofle_choc_pico",
+    "manufacturer": "PandaKB.COM",
+    "keyboard_name": "sofle_choc_pico",
     "maintainer": "abhbh",
     "diode_direction": "COL2ROW",
     "url": "https://github.com/josefadamcik/SofleKeyboard",
