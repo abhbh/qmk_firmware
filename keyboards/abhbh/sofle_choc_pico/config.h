@@ -1,18 +1,18 @@
 #pragma once
 
-// 2 Encoders (1 each on left and right)
-#define ENCODER_A_PINS { GP28 }
-#define ENCODER_B_PINS { GP29 }
-#define ENCODER_A_PINS_RIGHT { GP29 }
-#define ENCODER_B_PINS_RIGHT { GP28 }
-#define ENCODER_RESOLUTION 4
-
 #define USB_VBUS_PIN 19
 #define USE_SERIAL
 #define SERIAL_PIO_USE_PIO0
 #define SERIAL_USART_TX_PIN GP1
 
-/* Reset. */
+// 2 Encoders (1 each on left and right)
+#define ENCODER_A_PINS { GP29 }
+#define ENCODER_B_PINS { GP28 }
+#define ENCODER_A_PINS_RIGHT { GP28 }
+#define ENCODER_B_PINS_RIGHT { GP29 }
+#define ENCODER_RESOLUTION 4
+
+/* RP2040 Reset config */
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP17
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 1000U
